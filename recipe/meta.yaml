@@ -1,5 +1,5 @@
 {% set name = "xontrib-output-search" %}
-{% set version = "0.5.1" %}
+{% set version = "0.5.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f9ea4989ed9b04465a40274d1c879cdaea82a1973cc1d488c7184bdd5f9183ec
+  sha256: 088c31c7dd0c0b30469a84ad239dae731238baaee42a33018f30b3abfcb28123
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
