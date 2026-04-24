@@ -5,13 +5,15 @@ Home: https://github.com/tokenizer/xontrib-output-search
 
 Package license: BSD-2-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xontrib-output-search-feedstock/blob/master/LICENSE.txt)
 
 Summary: Get identifiers, names, paths, URLs and words from the previous command output
 and use them for the next command in xonsh
 
 
+Development: https://github.com/tokenizer/xontrib-output-search
 
+Documentation: https://github.com/tokenizer/xontrib-output-search/blob/master/README.md
 
 Current build status
 ====================
